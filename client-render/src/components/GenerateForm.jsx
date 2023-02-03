@@ -7,7 +7,7 @@ function GenerateForm({ generate }) {
   }
   return (
     <form onSubmit={handleSubmit}>
-      <button class="glow-button" type="submit">Generate</button>
+      <button className="glow-button" type="submit">Generate</button>
     </form>
   );
 }

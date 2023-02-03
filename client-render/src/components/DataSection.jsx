@@ -2,9 +2,9 @@ import React from 'react'
 
 function DataSection({ randomUsername }) {
   return (
-    <div class="data-section">
-      <div class="data-container">
-        <p class="data">
+    <div className="data-section">
+      <div className="data-container">
+        <p className="data">
           { randomUsername }
         </p>
       </div>
